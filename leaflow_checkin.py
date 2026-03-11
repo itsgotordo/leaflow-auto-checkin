@@ -22,7 +22,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 class LeaflowAutoCheckin:
-    def __init__(self, a1321953712@gmail.com, zasd.1234):
+    def __init__(self, 'a1321953712@gmail.com', 'zasd.1234'):
         self.email = email
         self.password = password
         self.telegram_bot_token = os.getenv('TELEGRAM_BOT_TOKEN', '')
@@ -640,5 +640,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
