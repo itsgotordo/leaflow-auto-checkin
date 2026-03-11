@@ -4,6 +4,13 @@ Leaflow 多账号自动签到脚本
 变量名：LEAFLOW_ACCOUNTS
 变量值：邮箱1:密码1,邮箱2:密码2,邮箱3:密码3
 """
+from dotenv import load_dotenv
+import os
+
+load_dotenv()  # 加载环境变量
+
+LEAFLOW_EMAIL = os.getenv('a1321953712@gmail.com')
+LEAFLOW_PASSWORD = os.getenv('zasd.1234')
 
 import os
 import time
@@ -640,3 +647,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
